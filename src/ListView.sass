@@ -1,0 +1,50 @@
+#logo-container
+  margin-top: 2rem
+  display: flex
+  justify-content: center
+
+  img
+    max-width: 80wv
+    width: 80rem
+
+#list-container
+  margin-top: 3rem
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+#list
+  display: flex
+  flex-direction: column
+
+  .list-song-item
+    border-bottom: 1px solid #ccc
+    padding-top: 0.5rem
+    display: flex
+    align-items: center
+    gap: 1.5rem
+    width: 100%
+    max-width: 50rem
+    cursor: pointer
+
+    &:first-child
+      border-top: 1px solid #ccc
+
+    &:hover
+      background-color: rgba(255, 255, 255, 0.2)
+
+    #cover-art
+      img
+        width: 7rem
+        max-width: 20vw
+
+    #song-meta
+      flex-grow: 1
+
+      p#song-meta-title
+        color: white
+        font-size: 1.2rem
+
+      p#song-meta-artist
+        color: white
+        font-size: 0.8rem

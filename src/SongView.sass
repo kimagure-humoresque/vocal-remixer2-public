@@ -1,0 +1,106 @@
+#container
+  margin: 1rem 1rem
+  display: flex
+  flex-direction: column
+  align-items: center
+
+#song-info
+  display: flex
+  align-items: center
+  gap: 1.5rem
+  width: 100%
+  max-width: 50rem
+
+  #cover-art
+    img
+      width: 7rem
+      max-width: 20vw
+
+  #song-meta
+    flex-grow: 1
+
+    p#song-meta-title
+      color: white
+      font-size: 1.2rem
+
+    p#song-meta-artist
+      color: white
+      font-size: 0.8rem
+
+    p#song-meta-comment
+      color: white
+      font-size: 0.7rem
+
+#song-position
+  width: 100%
+  max-width: 50rem
+  display: flex
+  justify-content: space-between
+
+  p
+    color: white
+    text-align: end
+
+#song-gauge
+  width: 100%
+  max-width: 50rem
+  position: relative
+
+  #song-gauge-current
+    position: absolute
+    top: 0
+    left: 0
+    height: 0.5rem
+    background-color: #ffffff
+    border-radius: 0.25rem
+
+  #song-gauge-total
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 0.5rem
+    background-color: #333333
+    border-radius: 0.25rem
+
+#song-nav-buttons
+  margin-top: 1.5rem
+  width: 100%
+  max-width: 50rem
+  display: flex
+  align-items: center
+  justify-content: center
+
+  button
+    width: 3.2rem
+    height: 3rem
+    border: 1px solid #89c3eb
+    background-color: rgba(137, 195, 235, 0)
+    color: white
+    font-size: 1.3rem
+    cursor: pointer
+    transition: background-color 0.2s
+
+    &:first-child
+      border-top-left-radius: 7px
+      border-bottom-left-radius: 7px
+
+    &:last-child
+      border-top-right-radius: 7px
+      border-bottom-right-radius: 7px
+
+    &:hover
+      background-color: rgba(137, 195, 235, 0.3)
+      transition: background-color 0.2s
+
+    &:active
+      background-color: rgba(137, 195, 235, 0.6)
+      transition: background-color 0.2s
+
+#song-tracks
+  margin-top: 1rem
+  width: 100%
+
+  canvas
+    width: 100%
+    margin-top: 1rem

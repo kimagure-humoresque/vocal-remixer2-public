@@ -1,0 +1,91 @@
+{
+  "comment": "歌声は JVS-MuSiC より。BGM は https://commons.nicovideo.jp/works/nc190206 に Demucs を適用したもの。",
+  "bgm": [
+    {
+      "data": "katatsumuri/katatsumuri_other.m4a",
+      "name": "Inst"
+    },
+    {
+      "data": "katatsumuri/katatsumuri_bass.m4a",
+      "name": "Bass"
+    },
+    {
+      "data": "katatsumuri/katatsumuri_drums.m4a",
+      "name": "Drums"
+    }
+  ],
+  "vocals": [
+    {
+      "data": "katatsumuri/katatsumuri_jvs004.m4a",
+      "name": "JVS004",
+      "color": "#317DEB"
+    },
+    {
+      "data": "katatsumuri/katatsumuri_jvs010.m4a",
+      "name": "JVS010",
+      "color": "#EB4DA6"
+    }
+  ],
+  "segments": [
+    {
+      "start": 6.597,
+      "end": 10.240,
+      "singers": [
+        0
+      ]
+    },
+    {
+      "start": 10.240,
+      "end": 13.630,
+      "singers": [
+        1
+      ]
+    },
+    {
+      "start": 13.630,
+      "end": 17.234,
+      "singers": [
+        0,
+        1
+      ]
+    },
+    {
+      "start": 20.500,
+      "end": 24.064,
+      "singers": [
+        1
+      ]
+    },
+    {
+      "start": 24.064,
+      "end": 27.515,
+      "singers": [
+        0
+      ]
+    },
+    {
+      "start": 27.515,
+      "end": 30.876,
+      "singers": [
+        0,
+        1
+      ]
+    },
+    {
+      "start": 30.876,
+      "end": 34.222,
+      "singers": [
+        0,
+        1
+      ]
+    },
+    {
+      "start": 34.222,
+      "end": 37.689,
+      "singers": [
+        0,
+        1
+      ]
+    }
+  ]
+}
