@@ -1,5 +1,5 @@
 {
-  "comment": "作詞・作曲・編曲: ハイジナカムラ。研究用のオリジナル楽曲です。",
+  "comment": "作詞・作曲・編曲: ハイジナカムラ。研究用のオリジナル楽曲です。分離は Demucs、声質変換は SoftVC VITS Singing Voice Conversion です。",
   "bgm": [
     {
       "data": "aoharu/other.m4a",
